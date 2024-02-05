@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Parça1.DXF">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <mat />
+      <objects>
+        <pline id="12" Closed="true">
+          <mat />
+          <pts>
+            <p b="0.57735026918962573">11,0,0</p>
+            <p b="0.57735026918962573">-5.5,9.52627944162883,0</p>
+            <p b="0.57735026918962573">-5.50000000000001,-9.52627944162882,0</p>
+          </pts>
+        </pline>
+        <pline id="23" Closed="true">
+          <mat />
+          <pts>
+            <p b="0.54891248871106268">32.0000000000128,33.9999999999985,0</p>
+            <p b="-2.1533302311001723">13.752388028321,11.6134328912037,0</p>
+            <p b="0.54891248871106268">-13.752388028316,11.6134328912015,0</p>
+            <p b="-0.99999999999999967">-32,34,0</p>
+            <p>-32,74,0</p>
+            <p b="-0.99999999999999989">32,74,0</p>
+          </pts>
+        </pline>
+        <pline id="24" Closed="true">
+          <mat />
+          <pts>
+            <p b="0.99999999999999989">-32,64,0</p>
+            <p>-32,44,0</p>
+            <p b="1.0000000000000004">32,44,0</p>
+            <p>32,64,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <OutFile>C:\Users\omerg\OneDrive\Masaüstü\Parça1.DXF.nc</OutFile>
+    <SplineCurveSteps>12</SplineCurveSteps>
+    <TextCurveSteps>5</TextCurveSteps>
+  </MachiningOptions>
+  <machineops>
+    <mop xsi:type="MOPProfile">
+      <ToolDiameter>3</ToolDiameter>
+      <PlungeFeedrate>250</PlungeFeedrate>
+      <CutFeedrate>500</CutFeedrate>
+      <ClearancePlane>1.5</ClearancePlane>
+      <primitive>
+        <prim>24</prim>
+        <prim>12</prim>
+      </primitive>
+      <mat />
+      <StockSurface>0</StockSurface>
+      <TargetDepth>-3</TargetDepth>
+      <DepthIncrement>1</DepthIncrement>
+      <FinalDepthIncrement>0</FinalDepthIncrement>
+      <CutWidth>0</CutWidth>
+      <StepOver>0.4</StepOver>
+      <InsideOutside>Inside</InsideOutside>
+    </mop>
+    <mop xsi:type="MOPProfile">
+      <ToolDiameter>3</ToolDiameter>
+      <PlungeFeedrate>250</PlungeFeedrate>
+      <CutFeedrate>500</CutFeedrate>
+      <ClearancePlane>1.5</ClearancePlane>
+      <primitive>
+        <prim>23</prim>
+      </primitive>
+      <mat />
+      <StockSurface>0</StockSurface>
+      <TargetDepth>-3</TargetDepth>
+      <DepthIncrement>1</DepthIncrement>
+      <FinalDepthIncrement>0</FinalDepthIncrement>
+      <CutWidth>0</CutWidth>
+      <StepOver>0.4</StepOver>
+    </mop>
+  </machineops>
+  <ActiveLayer>0</ActiveLayer>
+</CADFile>
