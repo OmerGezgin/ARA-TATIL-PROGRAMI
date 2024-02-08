@@ -1,0 +1,8 @@
+version 2
+1
+9
+.tran 100 10{return}.kicad adjustpaths{return}.save all{return}.probe alli
+1
+1
+V(Net-_C1-Pad1_)
+ 
